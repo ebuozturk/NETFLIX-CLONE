@@ -1,0 +1,67 @@
+.dashboard {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.dashboard .container {
+  width: 1400px;
+  max-width: 2000px;
+  /* background: chartreuse; */
+}
+
+.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  padding-left: 60px;
+  top: 0;
+  box-shadow: inset 30vw 70px 50px rgb(5, 5, 5, 0.9);
+}
+.banner-detail {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  max-width: 500px;
+  color: white;
+  margin-bottom: 30px;
+}
+.banner-detail p {
+  padding-top: 25px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.banner-detail .title-img {
+  width: 500px;
+  max-height: 200px;
+}
+@media screen and (max-width: 600px) {
+  .dashboard {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .dashboard .container {
+    width: 100%;
+  }
+
+  .banner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 30px;
+    box-shadow: inset 30vw 90px 100px rgb(19, 19, 19);
+  }
+  .banner-detail {
+  }
+  .banner-detail p {
+    padding-top: 25px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+  .banner-detail .title-img {
+    width: 200px;
+    max-height: 200px;
+  }
+}

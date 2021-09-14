@@ -1,0 +1,45 @@
+server:
+    error:
+        include-message: always
+        include-binding-errors: always
+    port: 8080
+spring:
+    datasource:
+        password: 123456
+        url: jdbc:postgresql://localhost:5432/netflix
+        username: postgres
+    jpa:
+      hibernate:
+        ddl-auto: update
+      properties:
+          hibernate:
+            dialect: org.hibernate.dialect.PostgreSQLDialect
+            format_sql: true
+      show-sql: true
+    servlet:
+        multipart:
+          max-file-size: 100MB
+          max-request-size: 100MB
+
+
+#server.error.include-message = always
+#server.error.include-binding-errors= always
+#
+#spring.datasource.password=163898
+#spring.datasource.url= jdbc:postgresql://localhost:5432/registration
+#spring.datasource.username= postgres
+#spring.jpa.hibernate.ddl-auto= create-drop
+#
+#
+#spring.datasource.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
+#spring.datasource.properties.hibernate.format_sql= true
+#spring.datasource.properties.show-sql= true
+#
+#application.jwt.secret-key=ey=
+#application.jwt.token-prefix=
+#application.jwt.token-expiration-after-days=
+#     jwt:
+#        secretKey: 163898ebu163898huso163898161616161698989898security
+#        tokenprefix: Bearer
+#        tokenExpirationAfterDays: 14
+

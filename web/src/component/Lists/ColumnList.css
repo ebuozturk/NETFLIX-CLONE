@@ -1,0 +1,40 @@
+.column-list {
+  flex-direction: column;
+  min-height: 256px;
+}
+.column-list-solo {
+  margin-top: 100px;
+}
+.column-list h1 {
+  width: 100%;
+  font-weight: bolder;
+  margin-left: 40px;
+}
+.column-list p {
+  width: 40%;
+  font-size: 1.2em;
+  margin-left: 40px;
+}
+.column-posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 0 20px;
+}
+.column-posters a {
+  max-width: 190px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 450ms;
+}
+
+.column-posters ::-webkit-scrollbar {
+  display: none;
+}
+
+.column-poster {
+  max-height: 300px;
+}
+.column-posters a:hover {
+  transform: scale(1.08);
+}

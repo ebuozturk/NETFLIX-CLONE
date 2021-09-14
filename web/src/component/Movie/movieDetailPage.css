@@ -1,0 +1,45 @@
+.movie-detail-body {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 69px;
+  width: 100%;
+  height: 90vh;
+  box-shadow: inset 45vw 50px 100px rgb(12, 12, 12, 0.9);
+}
+
+.movie-detail-body .movie-detail-content img {
+  width: 450px;
+  max-height: 200px;
+}
+.movie-detail-body .movie-detail-content {
+  width: 40vw;
+  min-width: 478px;
+  padding-top: 110px;
+  padding-left: 90px;
+  word-wrap: break-word;
+}
+.movie-detail-content .movie-details {
+  color: rgb(117, 118, 119);
+  font-weight: bold;
+}
+.movie-detail-content .movie-details a {
+  color: rgb(117, 118, 119);
+  font-weight: bold;
+}
+.movie-detail-content .movie-starring {
+  color: rgb(117, 118, 119);
+}
+.movie-detail-content .movie-starring a {
+  color: rgb(253, 253, 253);
+  word-spacing: 1px;
+}
+.movie-detail-content .restriction {
+  border: 1px solid rgb(117, 118, 119);
+  padding: 0 4px;
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}

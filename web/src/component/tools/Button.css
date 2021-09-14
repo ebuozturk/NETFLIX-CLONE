@@ -1,0 +1,19 @@
+.button {
+  background: rgba(43, 42, 42, 0.6);
+  color: white;
+  box-shadow: none;
+  border: 1px solid rgba(252, 249, 249, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  height: 40px;
+  margin-right: 50px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.button:hover {
+  background: rgba(255, 255, 255, 0.932);
+  color: black;
+}

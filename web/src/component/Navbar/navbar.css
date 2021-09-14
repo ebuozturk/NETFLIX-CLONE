@@ -1,0 +1,53 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  height: 68px;
+  padding: 0 50px;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav-black {
+  background: black;
+}
+
+.nav .nav-left {
+  display: flex;
+}
+.nav-left .logo {
+  margin-right: 40px;
+}
+
+.nav-left .logo img {
+  width: 120px;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-left ul li {
+  margin-right: 25px;
+}
+.nav-right {
+  display: flex;
+}
+.nav-right .user-detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav .search-box {
+  position: relative;
+}

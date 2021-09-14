@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "NetflixSans_W_Rg";
+  src: local("NetflixSans_W_Rg"),
+    url(./fonts/NetflixSans_W_Rg.woff2) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: "NetflixSans_W_Md";
+  src: local("NetflixSans_W_Md"),
+    url(./fonts/NetflixSans_W_Md.woff2) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(19, 19, 19);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+button {
+  box-shadow: none;
+  border: none;
+}

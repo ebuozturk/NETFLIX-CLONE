@@ -1,0 +1,16 @@
+.search-box .search-input {
+  visibility: hidden;
+  width: 0px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-color: black;
+  border: 1px solid rgba(131, 131, 131, 0.74);
+  color: white;
+}
+.search-box .search-button {
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.search-button.animate {
+  transform: rotate(-15deg);
+}

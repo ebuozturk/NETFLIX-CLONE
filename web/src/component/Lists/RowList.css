@@ -1,0 +1,51 @@
+.row-list {
+  min-height: 256px;
+}
+.row-list h3 {
+  display: block;
+  width: 100%;
+}
+.row-posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 0 20px;
+}
+.row-posters ::-webkit-scrollbar {
+  display: none;
+}
+.row-poster {
+  max-height: 200px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.row-poster:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 600px) {
+  .row-list {
+    min-height: 256px;
+  }
+  .row-list h3 {
+    display: block;
+    width: 100%;
+  }
+  .row-posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 0 0px;
+  }
+  .row-posters ::-webkit-scrollbar {
+    display: none;
+  }
+  .row-poster {
+    max-height: 200px;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  .row-poster:hover {
+    transform: scale(1.08);
+  }
+}
